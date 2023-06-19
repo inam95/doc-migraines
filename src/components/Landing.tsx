@@ -4,9 +4,7 @@ import Image from 'next/image';
 import { Button, Grid, TextField } from '@mui/material';
 import doctor from '../../public/doctor.png';
 
-interface LandingProps {}
-
-export default function Landing({}: LandingProps) {
+export default function Landing() {
   return (
     <Grid
       className="landing"
